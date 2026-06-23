@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="fr-CD">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Zwayango prépare une boutique en ligne simple pour découvrir, commander et recevoir à Kinshasa.">
+    <meta name="theme-color" content="#ff385c">
+    <meta property="og:title" content="Zwayango - Ouverture prochaine">
+    <meta property="og:description" content="Des produits du quotidien, une commande simple, une livraison à Kinshasa.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="fr_CD">
+    <title>Zwayango - Ouverture prochaine</title>
+    <link rel="preload" href="assets/zwayango-coming-soon-artboard.png" as="image">
+    <link rel="preload" href="assets/product-table-scene.png" as="image">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="artboard-shell" aria-hidden="true">
+      <img
+        class="artboard-image"
+        src="assets/zwayango-coming-soon-artboard.png"
+        alt=""
+        width="1586"
+        height="992"
+      >
+    </main>
+
+    <div class="page" aria-label="Zwayango arrive bientôt">
+      <header class="site-header" aria-label="En-tête">
+        <a class="brand" href="./" aria-label="Accueil Zwayango">
+          <span class="brand-mark" aria-hidden="true">Z</span>
+          <span class="brand-name">Zwayango</span>
+        </a>
+      </header>
+
+      <main class="hero" aria-labelledby="page-title">
+        <section class="hero-copy">
+          <p class="location-pill">Kinshasa, RDC</p>
+          <h1 id="page-title">
+            <span>La boutique</span>
+            <span>arrive bientôt</span>
+          </h1>
+          <p class="lead">
+            Des produits du quotidien,<br>
+            une commande simple,<br>
+            une livraison à Kinshasa.
+          </p>
+          <span class="launch-button">Ouverture prochaine</span>
+        </section>
+
+        <section class="hero-visual" aria-label="Aperçu visuel de la boutique Zwayango">
+          <img
+            src="assets/product-table-scene.png"
+            alt="Sacs Zwayango, colis, vêtements, produits maison et panier d'épicerie"
+            width="936"
+            height="760"
+          >
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <span>Zwayango</span>
+        <span>Kinshasa, RDC</span>
+        <span>&copy; <span id="year">2026</span></span>
+      </footer>
+    </div>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

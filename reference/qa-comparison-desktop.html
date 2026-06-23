@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Zwayango desktop QA comparison</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        width: 100%;
+        min-height: 100%;
+        margin: 0;
+        background: #ffffff;
+      }
+
+      body {
+        display: grid;
+        grid-template-columns: 1440px 1440px;
+        overflow: hidden;
+      }
+
+      img {
+        width: 1440px;
+        height: 900px;
+        display: block;
+        object-fit: contain;
+        background: #ffffff;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="product-table-delivery-ready.png" alt="Reference design">
+    <img src="render-desktop.png" alt="Rendered page">
+  </body>
+</html>

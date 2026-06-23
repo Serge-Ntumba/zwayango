@@ -1,0 +1,34 @@
+# macOS and Windows system files
+.DS_Store
+Thumbs.db
+
+# Local editor and assistant tooling
+.vscode/
+.idea/
+.codex/
+
+# Environment and local config
+.env
+.env.*
+!.env.example
+
+# Dependencies and package manager caches
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/
+
+# Build and temporary output
+dist/
+build/
+_site/
+.cache/
+tmp/
+temp/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
